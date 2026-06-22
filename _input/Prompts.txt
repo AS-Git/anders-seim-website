@@ -1,0 +1,68 @@
+Ich möchte, dass du eine Struktur anlegst für eine einfache einseitige Landing Pages. Geht darum, dass du hier einen leeren Ordner hast und erst mal die Grundlage für das Arbeiten in diesem Ordner legst. Wichtig ist, dass du als Coding Agent darin nachher arbeiten sollst und die Website hier ist kein Coder am Start, der das macht, sondern das macht komplett. Baut entsprechend zu, damit es für dich am besten passt.
+Erstelle eine Projekt.md-Datei, in der wir den roten Faden festhalten:
+- Zielseite
+- Zielgruppe
+- Geplante Sektionen
+- Offene Entscheidungen
+- Was eben klar ist
+Kannst du befüllen. Sonst einfach Platzhalter überall einsetzen.
+Wir wollen eine Design.md-Datei haben, die eine leere Vorlage für unsere Design später ist. Schlag einfach eine Projektstruktur vor. Die Sinn macht. Leg die Ordner schon mal an. Wir brauchen allerdings noch keinen Framework-Code, nur die Struktur und die entsprechenden dazugehörigen Dateien. Erledige das mal und erkläre dann, was du angelegt hast.
+
+++++++
+
+Wunderbar, das schaut gut aus. Machen wir als Nächstes den Tech Stack.
+
+Was ist das Ziel? Das Ziel ist, dass wir eine Landing Page bauen, und ich hatte daran gedacht, dass wir NextJS, React, TypeScript, Tailwind CSS, ShadCN für Komponenten und Lucid React für Icons nutzen. Du darfst gerne abweichen, sofern du der Meinung bist, es gibt bessere Optionen für bestimmte Dinge, die wir nutzen sollten. Wenn irgendetwas anderes mehr Sinn macht, bitte gerne sagen.
+
+Du sollst da einmal kritisch darüber schauen und mir dann basierend auf deiner Analyse einen angepassten Tech Stack empfehlen. Deine Entscheidungen solltest du dann auch im Projekt.md festhalten.
+
+Danach, sobald ich das freigegeben habe, solltest du das Projekt mit diesem Tech Stack einrichten, sodass es lauffähig ist, aber es braucht kein Design oder sonst irgendwas, einfach nur, dass es funktioniert. Du kannst dann auch schon mal eine lokale Vorschau einrichten und mir die Adresse dazu geben. 
+
+Kontext:
+
+Ziel ist die Erstellung einer Landingpage für unsere Agentur andersundseim.de. Hier weitere Informationen:
+
+WUNDERBAR WIRKSAME WEBSITES
+Internetagentur für Webdesign, SEO, GEO und Online-Marketing
+
+Wir unterstützen kleine und mittelständische Unternehmen in Deutschland, Österreich und der Schweiz online profitabel zu wachsen – mit 100% Weiterempfehlung (ProvenExpert).
+
+Kurz: mehr Sichtbarkeit, mehr Anfragen, mehr Erfolg.
+
+Weiteren Textinput gibt es auf www.andersundseim.de.
+
+Hauptfarbe ist blau, siehe Logo weitere Farben sind html werte sind für das türkise: #009BA9 (bspw. Headlines) oder Lila #7C019C (Buttons und Highlights)
+
+++++++
+
+Ich habe nach und nach noch Kontext für die Inhalte und das Design für die Website. Das sind Textdateien, eine CSS-Datei, eine SVG-Datei und so weiter. Dies findest Du im Ordner _input
+
+Alternativ soll er selber einen Ordner anlgen...
+
+++++++
+
+Bitte nurze die Website www.andersundseim.de und die Dateien im _input-Ordner. Schaue dir das jetzt alles einmal gründlich an und schreibe mir einen Prompt. Mein Ziel ist es, dass ich mit Claude Design und mit Google Stitch entsprechendes modernes und passendes Design als Mockup für diese Website erstellen lasse, das dann natürlich zu dem Kontext passt. Dafür sollst du mir den Prompt schreiben, den ich nur copy-pasten muss.
+
+Hauptfarbe ist das blau aus dem Logo - weitere Farben sind html werte sind für das türkise: #009BA9 (bspw. Headlines) oder Lila #7C019C (Buttons und Highlights)
+
+++++++
+
+MCP an und direkte Übertragung
+
+Make sure the claude_design MCP connector (https://api.anthropic.com/v1/design/mcp) is connected — if it needs authorization, tell the user to run /design-login (adds user:design:read/write).
+Then use the claude_design MCP tools to import this project: https://claude.ai/design/p/a6fec762-ecc9-438c-b0bc-b7a1be1e9ec6?file=Anders-Seim-Landingpage.dc.html
+Implement: Anders-Seim-Landingpage.dc.html
+
++++++++
+
+Bitte checke die Inhalte und optimiere diese. Wichtig ist SEO und KI-SEO (GEO). Zudem machen wir kein SEA. Prüfe das Design ob es modern ist und optimiere dieses so das wir modern und inovativ rüber kommen.
+
++++++++
+
+Bitte jetzt noch eine coole, moderne, innovative Hero-Sektion mit Animation. Inhalt KI affine Agentur für SEO, GEO und wunderbar wirksame websites
+
++++++++
+
+Ich möchte, dass du jetzt mal die Seite live schaltest. Dafür sollst du bitte einmal Git initialisieren, alles commiten. Danach solltest du das Projekt zu GitHub hochladen, also ein neues Repository anlegen und das pushen und das Ganze über Vercel deployen. Auf eine Vorschau-URL, falls nötig, fühle dich durch die nötigen Logins und gib mir dann zum Schluss die live Adresse. Aber was du selbst machen kannst, mach bitte selber.
+
+++++++++

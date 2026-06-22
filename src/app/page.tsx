@@ -400,8 +400,8 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {services.map(({ icon: Icon, title, text, badge }) => (
-              <div key={title} className={`group relative p-8 rounded-2xl transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl overflow-hidden ${badge ? "ring-2" : "bg-white shadow-sm"}`}
-                style={badge ? { background: "linear-gradient(135deg, #fff 70%, rgba(0,155,169,.04))", ringColor: "#009BA9" } : {}}>
+              <div key={title} className={`group relative p-8 rounded-2xl transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl overflow-hidden ${badge ? "ring-2 ring-[#009BA9]" : "bg-white shadow-sm"}`}
+                style={badge ? { background: "linear-gradient(135deg, #fff 70%, rgba(0,155,169,.04))" } : {}}>
                 {badge && (
                   <span className="absolute top-5 right-5 px-2.5 py-0.5 rounded-full text-[11px] font-bold tracking-wider text-white" style={{ background: "linear-gradient(90deg, #009BA9, #7C019C)" }}>{badge}</span>
                 )}
